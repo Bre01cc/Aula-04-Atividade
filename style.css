@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(1, 86, 126);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family:  "Mozilla Headline", sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+main p{
+    color: aliceblue;
+}
+main input{
+    width: 250px;
+
+}
+main button{
+   
+    width: 100px;
+    color: rgb(120, 134, 134);
+}

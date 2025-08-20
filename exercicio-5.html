@@ -1,15 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Calculadora</title>
 </head>
 
 <body>
-    <h1> tabuada</h1>
-    <script>
+    <header>
+        <h1> Tabuada</h1>
+    </header>
+   <main id="main">
+    <div class="campos">
+        <input type="text" id="numero">
+        <button id="calcular">Calucular</button>
+    </div>
+    
+   </main>
+   
+   
+    <!-- <script>
         let valor1 = prompt("Digite um numero:");
         let i = 0;
         let limite = 10;
@@ -17,7 +33,7 @@
             console.log(`${valor1} X ${i} = `+valor1 * i)
             i++;
         }
-    </script>
+    </script> -->
 </body>
 
 </html>
